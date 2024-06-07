@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: wiremock
+  labels:
+    istio-injection: enabled
+    opa-istio-injection: enabled
+    securesystemsengineering.connaisseur/webhook: validate
